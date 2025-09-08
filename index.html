@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACATECH SOLUTIONS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">ACATECH SOLUTIONS</h1>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#interactive">Interactive</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Light/Dark mode toggle button -->
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Empowering Businesses with Technology</h2>
+      <p>We provide top-notch software solutions, expert training, and digital transformation services tailored for you.</p>
+      <button id="learn-more-btn">Learn More</button>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service">
+        <h3>Software Solutions</h3>
+        <p>Custom applications and enterprise solutions to solve real business problems.</p>
+      </div>
+      <div class="service">
+        <h3>Data Analysis & Data Science</h3>
+        <p>Turning raw data into actionable insights with analytics and machine learning.</p>
+      </div>
+      <div class="service">
+        <h3>Cyber Security</h3>
+        <p>Protecting your digital assets with modern security strategies and solutions.</p>
+      </div>
+      <div class="service">
+        <h3>UI/UX Design</h3>
+        <p>Creating beautiful, intuitive, and user-friendly interfaces.</p>
+      </div>
+      <div class="service">
+        <h3>Software Engineering Training</h3>
+        <p>Equipping future developers with hands-on skills in modern programming languages.</p>
+      </div>
+      <div class="service">
+        <h3>Cloud Solutions</h3>
+        <p>Cloud migration, deployment, and scalable infrastructure management.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training Section -->
+  <section id="training" class="section">
+    <h2>Our Training Programs</h2>
+    <ul>
+      <li>Data Analysis</li>
+      <li>Data Science</li>
+      <li>Software Engineering</li>
+      <li>Cyber Security</li>
+      <li>UI/UX Design</li>
+      <li>Cloud Computing</li>
+    </ul>
+  </section>
+
+  <!-- Interactive Features Section -->
+  <section id="interactive" class="section">
+    <h2>Interactive Features</h2>
+
+    <!-- Counter Example -->
+    <div class="counter-box">
+      <h3>Visitors Counter</h3>
+      <p id="counter">0</p>
+      <button id="increase-btn">Increase</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+
+    <!-- FAQ Example -->
+    <div class="faq-box">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq">
+        <button class="faq-question">What services does ACATECH offer?</button>
+        <p class="faq-answer">We offer software solutions, data science, cybersecurity, UI/UX, training, and more.</p>
+      </div>
+      <div class="faq">
+        <button class="faq-question">Do you provide remote training?</button>
+        <p class="faq-answer">Yes, we provide both online and onsite training programs.</p>
+      </div>
+      <div class="faq">
+        <button class="faq-question">How can I get started?</button>
+        <p class="faq-answer">Simply contact us via the form below and we’ll guide you through the process.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name..." />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Your email..." />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password..." />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message..."></textarea>
+
+      <button type="submit">Submit</button>
+      <p id="form-feedback"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ACATECH SOLUTIONS. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
